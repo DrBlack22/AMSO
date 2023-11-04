@@ -3,9 +3,8 @@
 using namespace std;
 ham::ham()
 {
-
+    cout << "Tango 8 movin out!" << endl;
 }
-void ham::printHam()
-{
-    cout << "May you be blessed with prowess in computers!" << endl;
+ham::~ham(){
+    cout << "Peace Out!" << endl;
 }

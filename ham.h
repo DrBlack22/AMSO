@@ -5,6 +5,7 @@ class ham
 {
     public:
         ham();
+        ~ham();
         void printHam();
 };
 
