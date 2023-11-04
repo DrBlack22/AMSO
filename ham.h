@@ -5,8 +5,8 @@ class ham
 {
     public:
         ham();
-        ~ham();
         void printHam();
+        void printFam()const;
 };
 
 #endif // HAM_H
